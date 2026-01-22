@@ -1,0 +1,29 @@
+p{
+    color:darkgreen;
+    font-size: 25px;
+    /*margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20;
+    margin-right: 30px;
+    margin: 10px 20px 20px;*/
+    padding: 10px 20px 30px 20px;
+    /*padding-left: 20px;
+    padding-bottom: 30px */;
+}
+
+
+
+
+div{
+    height: 200px;
+    width: 500px;
+    background-color:powderblue ;
+    border: 10px dotted red;
+    color: green;
+}
+
+body{
+    /*background-color: black;*/
+    background-color: url(../image/image.jpg);
+    background-size: cover;
+}
