@@ -3,25 +3,47 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Fragrance Showcase</title>
 <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
 
-<nav>
-    <ul class="navbar">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="work.html">Work</a></li>
-    </ul>
+<nav class="navbar">
+    <div class="nav-container">
+        <h1 class="logo">Azzaro</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+        </ul>
+    </div>
 </nav>
 
-<div class="images">
-    <img src="images/az2.jpg" style="width:1000px; height:500px; >
-    <img src="images/az3.jpg" style="width:1000px; height:500px; >
-    <img src="images/az4.jpg" style="width:1000px; height:500px; >
-</div>
+<main class="container">
+
+    <section class="card">
+        <img src="images/az2.jpg" alt="Fragrance Image">
+        <div class="card-text">
+            <p>It's a very refreshing fragrance with spicy and minty notes, making it vibrant and energizing.</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <img src="images/az3.jpg" alt="Azzaro Most Wanted">
+        <div class="card-text">
+            <p><strong>Azzaro The Most Wanted Eau de Toilette Intense</strong> is a bold, modern men's fragrance that leans into confidence, charisma, and a slightly rebellious edge. It’s part of the popular Wanted line, known for scents that feel both seductive and energetic.</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <img src="images/az4.webp" alt="Azzaro Wanted">
+        <div class="card-text">
+            <p><strong>Azzaro Wanted Eau de Toilette</strong> is the original scent that launched the bold Wanted line. It features a fresh citrus opening with lemon and ginger, followed by a warm spicy heart, creating an energetic yet refined fragrance.</p>
+        </div>
+    </section>
+
+</main>
 
 </body>
 </html>
