@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Names List</title>
+</head>
+<body>
+
+  <h2>Add a Name</h2>
+
+  <input type="text" id="nameInput" placeholder="Enter name">
+  <button onclick="addName()">Add</button>
+
+  <h3>Names:</h3>
+  <ul id="nameList"></ul>
+
+  <script>
+    let names = [];
+
+    function addName() {
+      const input = document.getElementById("nameInput");
+      const name = input.value.trim();
+
+      if (name === "") return;
+
+      names.push(name);
+      input.value = "";
+
+      displayNames();
+    }
+
+    function displayNames() {
+      const list = document.getElementById("nameList");
+      list.innerHTML = "";
+
+      
+      for (let i = 0; i < names.length; i++) {
+        const li = document.createElement("li");
+        li.textContent = names[i];
+        list.appendChild(li);
+      }
+    }
+  </script>
+
+</body>
+</html>
